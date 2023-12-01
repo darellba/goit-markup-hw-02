@@ -44,7 +44,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02sem;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -60,15 +60,16 @@ body {
 
 .contact-info .contact-link {
   color: var(--slate);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02sem;
+  letter-spacing: 0.02em;
   text-transform: lowercase;
+  font-style: normal;
 }
 
-.hero-bg {
+.section-hero {
   background: var(--navy-blue);
 }
 
@@ -78,7 +79,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 1.12px;
 }
@@ -89,11 +90,12 @@ body {
   color: var(--white);
 
   /* Button Text */
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.004em;
+  letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -112,20 +114,27 @@ body {
   text-transform: capitalize;
 }
 
-.section3-bg {
+.section3 {
   background: var(--cloud);
 }
 .section3-list {
   background-color: var(--white);
 }
-section2-title {
+/* .section3-title {
   color: var(--navy-blue);
-  text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+} */
+
+.section2-title {
+  color: var(--navy-blue);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -139,19 +148,12 @@ section2-title {
   letter-spacing: 0.32px;
 }
 
-.section3-img {
-  width: 264px;
-  height: 260px;
-}
-
 .footer {
   background: var(--navy-blue);
 }
 
 .footer-p {
   color: var(--cloud);
-  width: 264px;
-  /* Body */
 
   font-size: 16px;
   font-style: normal;
@@ -193,9 +195,6 @@ section2-title {
 }
 
 .row1-img {
-  width: 360px;
-  height: 300px;
-  flex-shrink: 0;
 }
 
 .row-list-title {
